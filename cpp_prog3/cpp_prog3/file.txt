@@ -1,0 +1,71 @@
+MainMenuBegin
+	Name = "Main Menu"
+	Color = (0,255,0)
+	Position = (0,900)
+	Higlightcolor = (0,0,0)
+	Size = (100,100)
+	SubMenuBegin 
+		Name = "frst"
+		Color = (255,0,0)
+		Position = (0,900)
+		Higlightcolor = (0,0,0)
+		Size = (100,100)
+		DialogBoxBegin
+			Name = "DialogBox"
+			Color = (255,0,0)
+			Position = (300,300)
+			Higlightcolor = (220,20,60)
+			Size = (400,200)
+			ButtonBegin
+				Name = "Button"
+				Color = (0,255,0)
+				Position = (310,310)
+				Higlightcolor = (220,20,60)
+				Size = (20,20)
+			ButtonEnd
+			ButtonBegin
+				Name = "Butn"
+				Color = (0,0,255)
+				Position = (390,310)
+				Higlightcolor = (220,20,60)
+				Size = (20,20)
+			ButtonEnd
+		DialogBoxEnd
+	SubMenuEnd
+	SubMenuBegin 
+	Name = "sec"
+		Color = (0,255,0)
+		Position = (0,800)
+		Higlightcolor = (0,0,0)
+		Size = (100,100)
+	SubMenuEnd
+	SubMenuBegin 
+	Name = "thrd"
+		Color = (0,0,255)
+		Position = (0,700)
+		Higlightcolor = (0,0,0)
+		Size = (100,100)
+	SubMenuEnd
+MainMenuEnd
+MainMenuBegin
+	Name = "Sec"
+	Color = (255,0,0)
+	Position = (0,800)
+	Higlightcolor = (0,0,0)
+	Size = (100,100)
+MainMenuEnd
+MainMenuBegin
+	Name = "Third"
+	Color = (0,0,255)
+	Position = (0,700)
+	Higlightcolor = (0,0,0)
+	Size = (100,100)
+MainMenuEnd
+MainMenuBegin
+	Name = "Fourth"
+	Color = (0,255,255)
+	Position = (0,600)
+	Higlightcolor = (0,0,0)
+	Size = (100,100)
+MainMenuEnd
+
